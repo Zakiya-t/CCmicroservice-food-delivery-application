@@ -25,16 +25,11 @@ To develop a microservice-based food delivery application with three independent
 
 ## 3. Project Objectives
 
-1.Develop three independent microservices for a food delivery application.
-2.Implement REST APIs for Restaurant, Delivery, and Order management.
-3.Containerize each microservice using Docker.
-4.Deploy and manage all services using Docker Compose.
-5.Establish communication between the microservices through a common Docker network.
-6.Validate end-to-end communication between the Order, Restaurant, and Delivery Services.
-7.Perform workload testing at different concurrency levels.
-8.Monitor CPU and memory usage of the Docker containers.
-9.Analyze response time and throughput under different workloads.
-10.Identify performance trends and resource usage of the services.
+1. Develop REST APIs for three independent microservices: Restaurant, Delivery, and Order management.
+2. Containerize each microservice using Docker images.
+3. Deploy and manage services using Docker Compose over a shared Docker network.
+4. Validate end-to-end communication and data exchange between all three microservices.
+5. Perform workload testing to analyze performance trends, response times, throughput, and resource utilization (CPU/Memory).
 
 ---
 
